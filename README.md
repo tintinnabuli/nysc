@@ -7,12 +7,14 @@ To gain write access to this REPO or the WIKI, please email your GitHub
 loginname to tintinnabuli@oneti.info .
 
 
-If you wish to experiment with GitHub, per se, please run your experiments
-under the 'test' directory.
-
-
 The wiki lives at https://github.com/tintinnabuli/nysc/wiki .
-Feel free to create or edit pages, issues or whatever you like.
+
+Calendar of upcoming events: https://github.com/tintinnabuli/nysc/wiki/calendar
+
+
+Feel free to create or edit pages, issues or whatever you like.  Please
+isolate your work by creating a new top level directory for yourself or any
+shared project.
 
 
 
