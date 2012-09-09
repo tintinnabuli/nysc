@@ -1,0 +1,56 @@
+
+HOWTO EDIT WIKI CALENDAR VIA GIT/GITHUB
+==========================================================
+
+
+1
+
+If you've never edited the calendar before, clone the wiki pages.  This
+creates the folder nysc.wiki in the current directory:
+
+  % git clone git@github.com:tintinnabuli/nysc.wiki.git
+
+
+If you're updating the calendar, pull the wiki repo to make sure you're
+up to date:
+
+  % cd nysc.wiki
+  % git pull
+
+
+
+2
+
+To edit and update the calendar:
+
+  % ...edit calendar.md...
+  % git add calendar.md
+  % git commit
+  % git push
+
+
+
+3
+
+The proof your changes on the web:
+
+  https://github.com/tintinnabuli/nysc/wiki/calendar
+
+
+
+
+#----------------------------------------- -o-
+USING MARKDOWN
+
+Files ending in *.md can contain markdown directives.
+
+
+Markdown is a simple as pie.  Here's a cheatsheet:
+  
+  http://scottboms.com/downloads/documentation/markdown_cheatsheet.pdf
+
+
+Here's the primary source:
+
+  http://daringfireball.net/projects/markdown
+
