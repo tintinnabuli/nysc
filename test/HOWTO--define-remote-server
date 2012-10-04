@@ -1,0 +1,3 @@
+
+Server.default = Server.new("SERVER_NAME", NetAddr("SERVER_IP", 57110)); 
+
