@@ -4,7 +4,7 @@
 This repo is open for any sort of file storage or exchange by members of
 the **NYC SuperCollider group**.
 To gain write access to this REPO or the WIKI, please email your GitHub
-loginname to tintinnabuli@oneti.info .
+login name to tintinnabuli@oneti.info .
 
 
 The wiki lives at https://github.com/tintinnabuli/nysc/wiki .
