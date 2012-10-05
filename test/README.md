@@ -1,3 +1,0 @@
-
-This is the 'test' directory for superfun GitHub experiments...
-

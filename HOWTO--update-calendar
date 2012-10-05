@@ -5,14 +5,14 @@ HOWTO EDIT WIKI CALENDAR VIA GIT/GITHUB
 
 1
 
-If you've never edited the calendar before, clone the wiki pages.  This
-creates the folder nysc.wiki in the current directory:
+If you've never edited the calendar before, first clone the wiki pages to
+create folder nysc.wiki:
 
   % git clone git@github.com:tintinnabuli/nysc.wiki.git
 
 
-If you're updating the calendar, pull the wiki repo to make sure you're
-up to date:
+If you're returning to an existing sandbox to update the calendar, pull the
+wiki repo to make sure you're up to date:
 
   % cd nysc.wiki
   % git pull

@@ -1,0 +1,49 @@
+
+HOWTO SEND A TEST BLIP TO A REMOTE SCSYNTH
+=============================================================
+
+
+1 -- Choose a REMOTE_IPADDR; define and boot the remote server:
+
+(
+  Server.default = s = Server.new(\hiyya, NetAddr("REMOTE_IPADDR", 57110)); 
+  s.boot;
+)
+
+
+
+2 -- Define a test tone; use a Routine to send a short blip:
+
+(
+  t = {
+    SynthDef(\tone, { Out.ar(0, SinOsc.ar(440,0,0.1)); }).add;
+
+    {
+      x = Synth(\tone);
+      0.25.wait;
+      x.free;
+    }.fork;
+  };
+)
+
+
+
+3 -- Blip:
+
+(
+  t.();
+)
+
+
+
+4 -- Quit the remote; setup and test local server:
+
+(
+  s.quit;
+
+  Server.default = s = Server.local;
+  s.reboot;
+
+  t.();
+)
+
