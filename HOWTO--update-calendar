@@ -23,7 +23,7 @@ wiki repo to make sure you're up to date:
 
 To edit and update the calendar:
 
-  % ...edit calendar.md...
+  % ...edit (or create) the file "calendar.md"...
   % git add calendar.md
   % git commit
   % git push
