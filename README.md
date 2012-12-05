@@ -9,8 +9,6 @@ login name to tintinnabuli@oneti.info .
 
 The wiki lives at https://github.com/tintinnabuli/nysc/wiki .
 
-Calendar of events: https://github.com/tintinnabuli/nysc/wiki/calendar
-
 
 Feel free to create or edit pages, issues or whatever you like.  Please
 isolate your work by creating a new top level directory for yourself or any
